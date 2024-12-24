@@ -1,0 +1,14 @@
+# Dependencias principales
+fastapi==0.95.1              # Framework para construir la API
+uvicorn[standard]==0.22.0    # Servidor ASGI para ejecutar FastAPI
+sqlalchemy==1.4.49           # ORM para manejar la base de datos
+pydantic[email]==1.10.4      # Validación de datos y modelos de FastAPI
+passlib[bcrypt]==1.7.4       # Manejo de contraseñas seguras
+pika==1.3.1                  # Cliente para trabajar con RabbitMQ
+python-dotenv==1.0.0         # Manejo de variables de entorno (opcional)
+
+# Dependencias para pruebas
+pytest==7.4.2                # Framework para pruebas
+pytest-asyncio==0.21.1       # Soporte para pruebas asíncronas en pytest
+pytest-cov==4.1.0            # Medir cobertura de código en pytest
+httpx==0.24.1                # Cliente HTTP usado en pruebas de integración
